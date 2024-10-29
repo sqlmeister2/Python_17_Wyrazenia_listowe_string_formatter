@@ -26,3 +26,7 @@ print(tekst)
 #Albo w bardziej czytelny sposob:
 tekst = f'jestem {argumenty[0]} i mam {argumenty[1]} lat'
 print(tekst)
+
+#Dodanie listy do string formatera
+lista_znakow = ['c', 'b', 'd']
+print(f'Lista znakow {lista_znakow}')
